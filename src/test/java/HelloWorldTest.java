@@ -17,4 +17,14 @@ public class HelloWorldTest {
         String actual = hw.sayHello().trim();
         Assert.assertEquals(expected,actual);
     }
+
+    /**
+     * Method sayHello() must return "Hello, World!". The trim method will remove any extra spaces or newlines at the end.
+     */
+    @Test
+    public void helloTest1(){
+        String expected = "Hello, world!";
+        String actual = hw.sayHello().trim();
+        Assert.assertEquals(expected,actual);
+    }
 }
