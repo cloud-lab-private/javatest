@@ -25,12 +25,12 @@ public class HelloWorldTest {
     public void helloTest(){
         String expected = "Hello, world!";
         String actual = hw.sayHello().trim();
-        Assert.assertEquals(expected,actual);*/
-    }
+        Assert.assertEquals(expected,actual);
+    }*/
     /*@Test
     public void helloTest(){
         String expected = "Hello, world!";
         String actual = hw.sayHello().trim();
-        Assert.assertEquals(expected,actual);*/
-    }
+        Assert.assertEquals(expected,actual);
+    }*/
 }
